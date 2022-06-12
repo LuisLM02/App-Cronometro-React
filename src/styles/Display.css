@@ -1,0 +1,34 @@
+@import "_variables.css";
+
+.contenedor{
+  max-width: 70vw;
+  margin: auto;
+}
+
+.display{
+  margin-top: 15vh;
+  text-align: center;
+  font-size: var(--reloj);
+}
+
+#reloj{
+  color: var(--main-color);
+}
+
+@media (max-width: 800px){
+  #reloj{
+   font-size: 8rem;
+ }
+}
+
+@media (max-width: 600px){
+ #reloj{
+   font-size: 7rem;
+ }
+}
+
+@media (max-width: 450px){
+ #reloj{
+   font-size: 5rem;
+ }
+}

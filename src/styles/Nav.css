@@ -1,0 +1,23 @@
+@import "_variables.css";
+
+nav{
+  background-color: var(--main-color);
+}
+h1{
+  font-size: var(--titulo);
+  color: var(--font-color);
+  margin-left: 2%;
+}
+
+@media (max-width: 450px){
+ nav h1{
+   font-size: 3rem;
+ }
+}
+
+.white{
+  color: var(--font-color2);
+}
+.black{
+  color: var(--font-color);
+}

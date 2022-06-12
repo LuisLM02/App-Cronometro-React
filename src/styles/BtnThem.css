@@ -1,0 +1,25 @@
+@import "_variables.css";
+
+#theme-btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 100%;
+  border: none;
+  background-color: var(--main-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white{
+  color: var(--font-color2);
+}
+.black{
+  color: var(--font-color);
+}

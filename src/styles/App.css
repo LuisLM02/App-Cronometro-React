@@ -1,0 +1,13 @@
+@import "_variables.css";
+
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+
+.white-display{
+  background-color: var(--font-color2);
+}
+.black-display{
+  background-color: var(--font-color);
+}
